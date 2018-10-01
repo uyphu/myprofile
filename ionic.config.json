@@ -1,7 +1,0 @@
-{
-  "name": "myprofile",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
