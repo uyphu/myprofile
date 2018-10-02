@@ -1,3 +1,4 @@
+//import { SettingsListPage } from './../../../../projectX/ionic3-components/src/pages/list/settings/settings';
 import { Component } from '@angular/core';
 
 import { AboutPage } from '../about/about';
@@ -5,6 +6,7 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { IntroPage } from '../intro/intro';
 import { ExperiencePage } from '../experience/experience';
+import { SettingsListPage } from '../settings/settings'
 
 @Component({
   templateUrl: 'tabs.html'
@@ -16,6 +18,7 @@ export class TabsPage {
   tab3Root = ContactPage;
   tab4Root = IntroPage;
   tab5Root = ExperiencePage;
+  tab6Root = SettingsListPage;
 
   constructor() {
 

@@ -181,7 +181,7 @@ export class ExperiencePage {
   ];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.description = this.filterFilter(this.description);
+    //this.description = this.filterFilter(this.description);
   }
 
   ionViewDidLoad() {

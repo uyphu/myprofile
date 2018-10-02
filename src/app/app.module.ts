@@ -1,3 +1,4 @@
+//import { SettingsListPageModule } from './../../../projectX/ionic3-components/src/pages/list/settings/settings.module';
 //import { TimelineComponentModule } from './../../../projectX/ionic3-components/src/components/timeline/timeline.module';
 //import { TimelinePageModule } from './../../../projectX/ionic3-components/src/pages/timeline/timeline.module';
 import { NgModule, ErrorHandler } from '@angular/core';
@@ -12,6 +13,7 @@ import { IntroPage } from '../pages/intro/intro';
 import { ExperiencePage } from '../pages/experience/experience';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TimelineComponentModule } from '../pages/timeline/timeline.module';
+import { SettingsListPageModule } from '../pages/settings/settings.module';
 //import { TimelineComponentModule } from './timeline/timeline.module';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -30,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     TimelineComponentModule,
+    SettingsListPageModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
