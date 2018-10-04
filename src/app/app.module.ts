@@ -27,11 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-<<<<<<< HEAD
     TimelineComponentModule,
     SettingsListPageModule,
-=======
->>>>>>> 3f9af016721b56b454ab69d708183095ac51db65
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
