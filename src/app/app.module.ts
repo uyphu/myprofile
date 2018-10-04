@@ -10,7 +10,7 @@ import { IntroPage } from '../pages/intro/intro';
 import { ExperiencePage } from '../pages/experience/experience';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TimelineComponentModule } from '../pages/timeline/timeline.module';
-import { SettingsListPageModule } from '../pages/settings/settings.module';
+import { SkillsListPageModule } from '../pages/skills/skills.module';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,11 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-<<<<<<< HEAD
     TimelineComponentModule,
-    SettingsListPageModule,
-=======
->>>>>>> 3f9af016721b56b454ab69d708183095ac51db65
+    SkillsListPageModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

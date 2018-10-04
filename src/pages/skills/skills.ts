@@ -3,10 +3,10 @@ import { NavController, IonicPage } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-settings',
-  templateUrl: 'settings.html'
+  selector: 'page-skills',
+  templateUrl: 'skills.html'
 })
-export class SettingsListPage {
+export class SkillsListPage {
   constructor(public navCtrl: NavController) {
   }
 
