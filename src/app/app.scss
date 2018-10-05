@@ -27,11 +27,14 @@ ion-icon {
   &[class*="custom-java"] {
     mask-image: url(../assets/icon/icons8-java.svg);
   }
-  &[class*="custom-qrcode"] {
-    mask-image: url(../assets/qrcode.svg);
+  &[class*="custom-experience"] {
+    mask-image: url(../assets/icon/folder.svg);
   }
-  &[class*="custom-spades"] {
-    mask-image: url(../assets/spades.svg);
+  &[class*="custom-skills"] {
+    mask-image: url(../assets/icon/skills.svg);
+  }
+  &[class*="custom-angular"] {
+    mask-image: url(../assets/icon/icons8-angularjs.svg);
   }
 
 }
