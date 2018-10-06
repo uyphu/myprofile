@@ -36,5 +36,23 @@ ion-icon {
   &[class*="custom-angular"] {
     mask-image: url(../assets/icon/icons8-angularjs.svg);
   }
-
+  &[class*="custom-html5"] {
+    mask-image: url(../assets/icon/icons8-html-5.svg);
+  }
+  &[class*="custom-javascript"] {
+    mask-image: url(../assets/icon/icons8-javascript.svg);
+  }
+  &[class*="custom-gwt"] {
+    mask-image: url(../assets/icon/gwt.svg);
+  }
+  &[class*="custom-actionscript"] {
+    mask-image: url(../assets/icon/prog_actionscript.ico);
+  }
+  &[class*="custom-jsp"] {
+    mask-image: url(../assets/icon/jsp.png);
+  }
+  &[class*="custom-hibernate"] {
+    mask-image: url(../assets/icon/hibernate_icon_whitebkg_48px.png);
+  }
+  
 }
