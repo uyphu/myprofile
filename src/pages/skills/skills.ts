@@ -8,6 +8,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 })
 export class SkillsListPage {
   constructor(public navCtrl: NavController) {
+    
   }
 
 }

@@ -54,5 +54,59 @@ ion-icon {
   &[class*="custom-hibernate"] {
     mask-image: url(../assets/icon/hibernate_icon_whitebkg_48px.png);
   }
-  
+  &[class*="custom-sql"] {
+    mask-image: url(../assets/icon/sql-file-format.svg);
+  }
+  &[class*="custom-springboot"] {
+    mask-image: url(../assets/icon/icon-spring-cloud.svg);
+  }
+  &[class*="custom-swagger"] {
+    mask-image: url(../assets/icon/swagger1.png);
+  }
+  &[class*="custom-mircoservice"] {
+    mask-image: url(../assets/icon/mircoservice.png);
+  }
+
+  &[class*="custom-struts"] {
+    mask-image: url(../assets/icon/struts.jpg);
+  }
+  &[class*="custom-oracle"] {
+    mask-image: url(../assets/icon/oracle.ico);
+  }
+  &[class*="custom-mysql"] {
+    mask-image: url(../assets/icon/mysql.svg);
+  }
+  &[class*="custom-db2"] {
+    mask-image: url(../assets/icon/db2a.png);
+  }
+  &[class*="custom-dynamodb"] {
+    mask-image: url(../assets/icon/aws-dynamodb.svg);
+  }
+  &[class*="custom-mongodb"] {
+    mask-image: url(../assets/icon/mongodb.svg);
+  }
+  &[class*="custom-google-cloud"] {
+    mask-image: url(../assets/icon/google-cloud.svg);
+  }
+  &[class*="custom-lambda"] {
+    mask-image: url(../assets/icon/aws-lambda.svg);
+  }
+  &[class*="custom-api-gateway"] {
+    mask-image: url(../assets/icon/aws-api-gateway.svg);
+  }
+  &[class*="custom-cognito"] {
+    mask-image: url(../assets/icon/aws-cognito.svg);
+  }
+  &[class*="custom-s3"] {
+    mask-image: url(../assets/icon/aws-s3.svg);
+  }
+  &[class*="custom-mobilehub"] {
+    mask-image: url(../assets/icon/aws-mobilehub.svg);
+  }
+  &[class*="custom-ses"] {
+    mask-image: url(../assets/icon/aws-ses.svg);
+  }
+  &[class*="custom-sns"] {
+    mask-image: url(../assets/icon/aws-sns.svg);
+  }
 }
