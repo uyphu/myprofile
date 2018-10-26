@@ -98,8 +98,6 @@ export class ExperiencePage {
       
        7. Video-conference
       
-       
-      
       Description: This is mobile app that allows user to be able to call video each other. It is like skype but no chatting.
       
       It can be run on mobile (android and IOS) and web app.
